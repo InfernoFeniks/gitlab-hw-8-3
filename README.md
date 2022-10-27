@@ -70,7 +70,9 @@ build:
 ### Задание 3
 
 #### Задание 3.1
-** .gitlab-ci.yml **
+
+**.gitlab-ci.yml**
+
 ```
 stages:
    - work
@@ -93,7 +95,9 @@ build:
 
 
 #### Задание 3.2
-** .gitlab-ci.yml **
+
+**.gitlab-ci.yml**
+
 ```
 stages:
    - test
