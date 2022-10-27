@@ -37,8 +37,9 @@
 
 `Добавил с скрипт инициализацию mod файла, чтобы тест смог выполниться.`
 
-```
+
 ###.gitlab-ci.yml
+```
 stages:
    - test
    - build
@@ -65,9 +66,10 @@ build:
 
 ### Задание 3
 
-```
+
 ##Задание 3.1
 ###.gitlab-ci.yml
+```
 stages:
    - work
 
@@ -87,9 +89,9 @@ build:
 ```
 
 
-```
 ##Задание 3.2
 ###.gitlab-ci.yml
+```
 stages:
    - test
    - build
