@@ -40,10 +40,10 @@
 ....
 ....
 ```
-
+`
 ![Задание_1.1](https://gitlab.infernofeniks.ru/feniks/gitlab-hw-8-3/-/blob/main/sreenshots/image_1.1.jpg)
 ![Задание_1.1](https://gitlab.infernofeniks.ru/feniks/gitlab-hw-8-3/-/blob/main/sreenshots/image_1.2.jpg)
-
+`
 
 ---
 
