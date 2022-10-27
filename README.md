@@ -20,6 +20,9 @@
 
 1. [Руководство по оформлению Markdown файлов](https://gist.github.com/Jekins/2bf2d0638163f1294637#Code)
 
+
+![img](https://gitlab.infernofeniks.ru/feniks/gitlab-hw-8-3/-/blob/main/sreenshots/logo.png)
+
 ---
 
 ### Задание 1
@@ -38,7 +41,7 @@
 `Добавил с скрипт инициализацию mod файла, чтобы тест смог выполниться.`
 
 
-###.gitlab-ci.yml
+** .gitlab-ci.yml **
 ```
 stages:
    - test
@@ -67,8 +70,8 @@ build:
 ### Задание 3
 
 
-##Задание 3.1
-###.gitlab-ci.yml
+#### Задание 3.1
+** .gitlab-ci.yml **
 ```
 stages:
    - work
@@ -89,8 +92,8 @@ build:
 ```
 
 
-##Задание 3.2
-###.gitlab-ci.yml
+#### Задание 3.2
+** .gitlab-ci.yml **
 ```
 stages:
    - test
