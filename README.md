@@ -35,18 +35,27 @@
 
 ### Задание 2
 
-`Удалил этап теста, так как не разобрался, почему тест не проходит в данном задание.`
+`Добавил с скрипт инициализацию mod файла, чтобы тест смог выполниться.`
 
 ```
 ###.gitlab-ci.yml
 stages:
+   - test
    - build
+
+test:
+  stage: test
+  image: golang:1.13
+  script: 
+   - go mod init feniks
+   - go test .
 
 build:
   stage: build
   image: docker:latest
   script:
    - docker build .
+
 ```
 
 ![Задание_2](https://gitlab.infernofeniks.ru/feniks/gitlab-hw-8-3/-/blob/main/sreenshots/image_2.jpg)
@@ -56,22 +65,54 @@ build:
 
 ### Задание 3
 
-`Приведите ответ в свободной форме........`
+```
+##Задание 3.1
+###.gitlab-ci.yml
+stages:
+   - work
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+test:
+    stage: work
+    image: golang:1.13
+    script: 
+     - go mod init feniks
+     - go test .
+
+build:
+    stage: work
+    image: docker:latest
+    script:
+     - docker build .
 
 ```
-Поле для вставки кода...
-....
-....
-....
-....
+
+
+```
+##Задание 3.2
+###.gitlab-ci.yml
+stages:
+   - test
+   - build
+
+test:
+  stage: test
+  image: golang:1.13
+  script:
+   - go mod init feniks
+   - go test .
+  only:
+     changes:
+       - "*.go"
+
+build:
+  stage: build
+  image: docker:latest
+  script:
+   - docker build .
+
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+
+![Задание_3.1](https://gitlab.infernofeniks.ru/feniks/gitlab-hw-8-3/-/blob/main/sreenshots/image_3.1.jpg)
+![Задание_3.2](https://gitlab.infernofeniks.ru/feniks/gitlab-hw-8-3/-/blob/main/sreenshots/image_3.2.jpg)
+
