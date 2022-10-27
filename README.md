@@ -20,8 +20,7 @@
 
 1. [Руководство по оформлению Markdown файлов](https://gist.github.com/Jekins/2bf2d0638163f1294637#Code)
 
-<img src = "sreenshots/logo.png" width = 100%>
-![img](https://gitlab.infernofeniks.ru/feniks/gitlab-hw-8-3/-/blob/main/sreenshots/logo.png)
+<img src = "sreenshots/logo.png" width = 20%>
 
 ---
 
