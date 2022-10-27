@@ -41,6 +41,7 @@
 
 
 ** .gitlab-ci.yml **
+
 ```
 stages:
    - test
@@ -68,7 +69,6 @@ build:
 
 ### Задание 3
 
-
 #### Задание 3.1
 ** .gitlab-ci.yml **
 ```
@@ -89,6 +89,7 @@ build:
      - docker build .
 
 ```
+![Задание_3.1](https://gitlab.infernofeniks.ru/feniks/gitlab-hw-8-3/-/blob/main/sreenshots/image_3.1.jpg)
 
 
 #### Задание 3.2
@@ -115,8 +116,5 @@ build:
    - docker build .
 
 ```
-
-
-![Задание_3.1](https://gitlab.infernofeniks.ru/feniks/gitlab-hw-8-3/-/blob/main/sreenshots/image_3.1.jpg)
 ![Задание_3.2](https://gitlab.infernofeniks.ru/feniks/gitlab-hw-8-3/-/blob/main/sreenshots/image_3.2.jpg)
 
